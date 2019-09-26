@@ -8,7 +8,7 @@ function Bird(){
 	this.velocity = 0;
 
 	this.r = 8;
-
+	this.conflictFlag = false;
 
 	this.show = function(){
 		fill(255);

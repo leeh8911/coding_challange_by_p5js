@@ -1,10 +1,11 @@
 var bird;
 var pipe;
+var birds[];
 
 function setup(){
 	createCanvas(400, 600);
 	bird = new Bird();
-	pipe = new Pipe();
+	pipe = new Pipe(-1, 100);
 
 }
 
